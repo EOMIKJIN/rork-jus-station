@@ -1,0 +1,27 @@
+const Colors = {
+  primary: '#8B5CF6',
+  primaryDark: '#7C3AED',
+  primaryLight: '#A78BFA',
+  secondary: '#06B6D4',
+  accent: '#F59E0B',
+  success: '#10B981',
+  error: '#EF4444',
+  warning: '#F59E0B',
+  background: '#0F0F1A',
+  surface: '#1A1A2E',
+  surfaceLight: '#252542',
+  text: '#FFFFFF',
+  textSecondary: '#A0A0B8',
+  textLight: '#6B6B80',
+  border: '#2D2D44',
+  white: '#FFFFFF',
+  black: '#000000',
+  gradient1: '#8B5CF6',
+  gradient2: '#06B6D4',
+  gold: '#FFD700',
+  silver: '#C0C0C0',
+  bronze: '#CD7F32',
+  cardBg: '#16162A',
+};
+
+export default Colors;
