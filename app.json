@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "JUS Station",
-    "slug": "jus-station",
+    "slug": "rork-jus-station",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -25,7 +25,9 @@
       "package": "com.nfloyd.jusstation"
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro",
+      "baseUrl": "/rork-jus-station"
     },
     "plugins": [
       "expo-router",
