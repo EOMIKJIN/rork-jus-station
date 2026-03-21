@@ -48,8 +48,8 @@ const styles = StyleSheet.create({
     borderRadius: 12,
   },
   linkText: {
+    color: Colors.white,
     fontSize: 16,
     fontWeight: '600' as const,
-    color: Colors.white,
   },
 });
