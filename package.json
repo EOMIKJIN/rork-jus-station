@@ -2,12 +2,15 @@
   "name": "jus-station",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "homepage": "https://eomikjin.github.io/rork-jus-station",
   "scripts": {
     "start": "npx expo start",
     "start-web": "npx expo start --web",
     "start-web-tunnel": "npx expo start --web --tunnel",
     "build-web": "npx expo export --platform web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "predeploy": "npm run build-web",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
@@ -53,7 +56,16 @@
     "@types/react": "~19.1.10",
     "eslint": "^9.31.0",
     "eslint-config-expo": "~10.0.0",
+    "gh-pages": "^6.3.0",
     "typescript": "~5.9.2"
+  },
+  "overrides": {
+    "lucide-react-native": {
+      "react": "$react"
+    },
+    "@ai-sdk/react": {
+      "react": "$react"
+    }
   },
   "private": true
 }
